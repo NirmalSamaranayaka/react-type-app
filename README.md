@@ -44,3 +44,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## React Hooks
+useState: To manage states. Returns a stateful value and an updater function to update it.
+useReducer: A useState alternative to help with complex state management.
+useEffect: To manage side-effects like API calls, subscriptions, timers, mutations, and more.
+useRef: It returns a ref object with a .current property. The ref object is mutable. It is mainly used to access a child component imperatively.
+useLayoutEffect: It fires at the end of all DOM mutations. It's best to use useEffect as much as possible over this one as the useLayoutEffect fires synchronously.
+useContext: To return the current value for a context.
+useMemo: It returns a memoized value that helps in performance optimizations.
+useCallback: It returns a memorized version of a callback to help a child component not re-render unnecessarily.
