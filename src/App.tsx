@@ -10,6 +10,7 @@ import InputForcusRef from './component/Hooks/UseRef/InputForcus';
 import LayoutEffectTutorial from './component/Hooks/UseLayoutEffect/PageCallingSequence';
 import ImparativeHandler from './component/Hooks/Imparative/ImparativeHandle';
 import ContextHandler from './component/Hooks/UseContext/ContextHandler';
+import MemoHandler from './component/Hooks/UseMemo/MemoHandler';
 
 interface AppContextInterface{
   name:string;
@@ -64,6 +65,9 @@ const App:FC =() => {
 
         <h1>--- Use Context --- </h1>
         <ContextHandler></ContextHandler>
+
+        <h1>--- Use Memo --- </h1>
+        <MemoHandler></MemoHandler>
       </header>
     </div>
     </AppContext.Provider>
