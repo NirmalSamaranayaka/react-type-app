@@ -11,6 +11,7 @@ import LayoutEffectTutorial from './component/Hooks/UseLayoutEffect/PageCallingS
 import ImparativeHandler from './component/Hooks/Imparative/ImparativeHandle';
 import ContextHandler from './component/Hooks/UseContext/ContextHandler';
 import MemoHandler from './component/Hooks/UseMemo/MemoHandler';
+import IncrementDecrementNumber from './component/Hooks/Reducer/IncrementDecrementNumber';
 
 interface AppContextInterface{
   name:string;
@@ -50,6 +51,9 @@ const App:FC =() => {
         <h1>--- Use State Example--- </h1>
         <IncrementDecrement></IncrementDecrement>
         <InputDataBind></InputDataBind>
+
+        <h1>--- Use Reducer Example--- </h1>
+        <IncrementDecrementNumber></IncrementDecrementNumber>
 
         <h1>--- Use Effect Example--- </h1>
         <EffectHookDataLoading></EffectHookDataLoading>

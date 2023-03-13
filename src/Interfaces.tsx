@@ -1,4 +1,4 @@
-import { HairColor } from "./Emum";
+import { HairColor, ActionKind } from './Emum';
 
 export interface User {
     name?:string;
@@ -6,4 +6,9 @@ export interface User {
     email?:string;
     hairColor: HairColor;
     //getName:()=> string;
+}
+
+
+export interface ActionType {
+    type: ActionKind
 }
